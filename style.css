@@ -1,0 +1,53 @@
+/* Importing the Raleway Google font (Regular & bold) */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+/* Basic Styles */
+body{
+    font-family:  'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: rgb(254, 250, 230);
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* The overflow property determines what to do if content overflows
+    an element'c box.setting overflow to hidden will hide/clip the overflowing content  */
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-1{
+    height: 38px;
+    background-color: #eb4442;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.light,.dark{
+    padding: 15px;
+    margin-top:10px ;
+    margin-bottom:10px ;
+}
+
+
+.light{
+    background-color: #e6e6e6;
+    color: #191311;
+}
+
+.dark{
+    background-color:#191311;
+    color: #e6e6e6;
+
+}
